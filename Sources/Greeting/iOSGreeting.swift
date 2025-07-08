@@ -1,5 +1,8 @@
 import KmpLib
 
-class iOSGreeting : Greeting {
-    let message: String = "HI iOS"
+public class iOSGreeting : Greeting {
+    public let message: String = "HI iOS"
+
+    public init() {
+    }
 }
