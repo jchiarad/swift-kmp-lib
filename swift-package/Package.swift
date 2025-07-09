@@ -13,7 +13,7 @@ let package = Package(
    targets: [
       .binaryTarget(
          name: "KmpLib",
-         url: "https://github.com/jchiarad/swift-kmp-lib/releases/download/0.0.1/KmpLib.xcframework.zip",
+         url: "https://github.com/jchiarad/swift-kmp-lib/raw/refs/heads/main/swift-package/KmpLib.xcframework.zip",
          checksum:"0be62ee9449336363c5511e2b7f710417cfa5834cb9b347bce02c3b3a0de6949"
       ),
       .target(
